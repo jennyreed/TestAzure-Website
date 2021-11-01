@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Project interior css-->
+    <link rel="stylesheet" href="Project_Interior.css">
+   <!-- Icons css-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <!-- Social Media icons css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="icon" href="Project_Interior_resources/logo2.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="Project_Interior.js"> </script>
+    <!-- Header -->
+    <div class="jumbotron" style="margin: 0px;">
+      <img src="Project_Interior_resources/logo2.jpg"  class="float-left">
+      <h1>
+        FirstClass Interiors</h1>
+        </div>  
+
+         <!--Navigation bar-->
+      <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-dark ">
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/Term_4_projects/Project_FirstClass_Interior(codes)/Project_Interior_Home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://127.0.0.1:5500/Term_4_projects/Project_FirstClass_Interior(codes)/Project_Interior_Contact.html">Contact Page</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="http://127.0.0.1:5500/Term_4_projects/Project_FirstClass_Interior(codes)/Project_Interior_AboutUs.html">About Page <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/Term_4_projects/Project_FirstClass_Interior(codes)/Project_Interior_Shop.html">Shop Page</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="Project_Interior_resources/search.png" style="height:24px"></button>
+          </form>
+        </div>
+      </nav>
+
+       <!--Content Column-->
+        <div class="row">
+          <div class="container shadow p-4 mb-4" style="max-width: 1100px" onmouseenter="Contact_Info_Function()"
+           onmouseout="Contact_Info1_Function()" id="Continfo">
+            
+            <h2  onclick="Contact_HFS_Function(), Contact_HFC_Function()"  style="cursor: pointer;">
+              <mark id="ContFS">Contact Us</mark></h2>
+            <div class="row">
+            <div class="col shadow p-4 mb-4 bg-white" style="padding-left: 30px; border-radius: 7px;">
+            <p> <img id="contact" src="Project_Interior_resources/Address.png"> <b>Address-</b> 90/Q Next street, Auckland</p>
+             <p> <img id="contact" src="Project_Interior_resources/Telephone.png"> <b>Contact Number-</b> +64 216712045 <i>(available time 9:00AM-6:00PM)</i></p>
+             <p> <img id="contact" src="Project_Interior_resources/Email.png"> <b>Email Address-</b> <a href=#CI.email>firstclass.interior@gmail.com</a></p>
+             <p> <img id="contact" src="Project_Interior_resources/Fax.png"> <b>Fax Number-</b> 202-129-980 </p>   
+            </div>   
+          </div>
+        </div>
+          <div class="container shadow p-4 mb-4" style="max-width: 1100px;">
+            <div class="col shadow p-4 mb-4 bg-white mx-auto" style="max-width: 900px; border-radius: 7px;">
+              <h4>Get in Touch</h4>
+              <form>
+              <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" class="form-control" name="name" id="name"  aria-describedby="HelpId" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" name="email" id="email"  aria-describedby="emailHelpId" placeholder="@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="Subject">Subject:</label>
+                <select class="form-control" name="" id="" aria-describedby="helpId" placeholder="Select one">
+                  <option value="subject" selected disabled style="display: none;">Select a subject</option>
+                  <option value="Design">Design related query</option>
+                      <option value="Material">Material realted query</option>
+                      <option value="Products">Products related query</option>
+                      <option value="Meeting">Book a meeting</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" name="message" id="message" rows="8"></textarea>
+              </div>
+              <button type="submit"class="btn btn-info" style="color: black;">Submit</button>
+          </form>
+        </div>
+        
+      </div>
+          </div>
+        </div>
+
+<!--footer-->
+<div class="card-footer" style="background-color: rgb(224, 224, 224); padding-right: 10px;">
+    <ul>
+      <li><a href="#CI.FB" class="fa fa-facebook" style="font-size: 30px;">
+      </a><a href="#CI.FB" >@FirstClass/FB </a></li>
+      <li ><a href="#CI.IG" class="fa fa-instagram" style="font-size: 30px;">
+      </a><a href="#CI.IG" >@FirstClass/IG </a></li>
+      <li><a href="#CI.LN" class="fa fa-linkedin" style="font-size: 30px;">
+      </a><a href="#CI.LN" >@FirstClass/LN </a></li>
+      <li><a href="#CI.TW" class="fa fa-twitter" style="font-size: 30px;">
+      </a><a href="#CI.TW" >@FirstClass/TW </a></li>
+  </ul>
+  </div>
+        
+  </body>
+</html>
